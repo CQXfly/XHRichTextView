@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XHViewController.h
 //  XHRichTextViewDemo
 //
 //  Created by duxuanhui on 15/7/17.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface XHViewController : UIViewController
 
 @end
-

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42FD0A91B58C5AB00B1995B /* XHBaseReportData.m in Sources */ = {isa = PBXBuildFile; fileRef = A42FD0A81B58C5AB00B1995B /* XHBaseReportData.m */; };
+		A42FD0AC1B58CBDA00B1995B /* XHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42FD0AB1B58CBDA00B1995B /* XHViewController.m */; };
+		A451596B1B58A31E007F54F0 /* XHReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A45159691B58A31E007F54F0 /* XHReportCell.m */; };
+		A451596C1B58A31E007F54F0 /* XHReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A451596A1B58A31E007F54F0 /* XHReportCell.xib */; };
+		A45159701B58AA9E007F54F0 /* XHReportData.m in Sources */ = {isa = PBXBuildFile; fileRef = A451596F1B58AA9E007F54F0 /* XHReportData.m */; };
+		A45159731B58AB64007F54F0 /* XHCommentData.m in Sources */ = {isa = PBXBuildFile; fileRef = A45159721B58AB64007F54F0 /* XHCommentData.m */; };
 		A47C47361B5889B6007B0D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C47351B5889B6007B0D65 /* main.m */; };
 		A47C473F1B5889B6007B0D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47C473D1B5889B6007B0D65 /* Main.storyboard */; };
 		A47C47411B5889B6007B0D65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47C47401B5889B6007B0D65 /* Images.xcassets */; };
@@ -28,6 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42FD0A71B58C5AB00B1995B /* XHBaseReportData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseReportData.h; sourceTree = "<group>"; };
+		A42FD0A81B58C5AB00B1995B /* XHBaseReportData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseReportData.m; sourceTree = "<group>"; };
+		A42FD0AA1B58CBDA00B1995B /* XHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHViewController.h; sourceTree = "<group>"; };
+		A42FD0AB1B58CBDA00B1995B /* XHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHViewController.m; sourceTree = "<group>"; };
+		A45159681B58A31E007F54F0 /* XHReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHReportCell.h; sourceTree = "<group>"; };
+		A45159691B58A31E007F54F0 /* XHReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHReportCell.m; sourceTree = "<group>"; };
+		A451596A1B58A31E007F54F0 /* XHReportCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHReportCell.xib; sourceTree = "<group>"; };
+		A451596E1B58AA9E007F54F0 /* XHReportData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHReportData.h; sourceTree = "<group>"; };
+		A451596F1B58AA9E007F54F0 /* XHReportData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHReportData.m; sourceTree = "<group>"; };
+		A45159711B58AB64007F54F0 /* XHCommentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCommentData.h; sourceTree = "<group>"; };
+		A45159721B58AB64007F54F0 /* XHCommentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCommentData.m; sourceTree = "<group>"; };
+		A45159741B58AF56007F54F0 /* XHDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDemo.pch; sourceTree = "<group>"; };
 		A47C47301B5889B6007B0D65 /* XHRichTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHRichTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47C47341B5889B6007B0D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A47C47351B5889B6007B0D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A451596D1B58AA03007F54F0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				A42FD0A71B58C5AB00B1995B /* XHBaseReportData.h */,
+				A42FD0A81B58C5AB00B1995B /* XHBaseReportData.m */,
+				A451596E1B58AA9E007F54F0 /* XHReportData.h */,
+				A451596F1B58AA9E007F54F0 /* XHReportData.m */,
+				A45159711B58AB64007F54F0 /* XHCommentData.h */,
+				A45159721B58AB64007F54F0 /* XHCommentData.m */,
+			);
+			name = Mode;
+			sourceTree = "<group>";
+		};
 		A47C47271B5889B6007B0D65 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +124,7 @@
 		A47C47331B5889B6007B0D65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A45159741B58AF56007F54F0 /* XHDemo.pch */,
 				A47C47341B5889B6007B0D65 /* Info.plist */,
 				A47C47351B5889B6007B0D65 /* main.m */,
 			);
@@ -141,10 +173,16 @@
 		A47C47631B588CC8007B0D65 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A451596D1B58AA03007F54F0 /* Mode */,
 				A47C475A1B588BC0007B0D65 /* AppDelegate.h */,
 				A47C475B1B588BC0007B0D65 /* AppDelegate.m */,
 				A47C475C1B588BC0007B0D65 /* ViewController.h */,
 				A47C475D1B588BC0007B0D65 /* ViewController.m */,
+				A42FD0AA1B58CBDA00B1995B /* XHViewController.h */,
+				A42FD0AB1B58CBDA00B1995B /* XHViewController.m */,
+				A45159681B58A31E007F54F0 /* XHReportCell.h */,
+				A45159691B58A31E007F54F0 /* XHReportCell.m */,
+				A451596A1B58A31E007F54F0 /* XHReportCell.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -241,6 +279,7 @@
 				A47C473F1B5889B6007B0D65 /* Main.storyboard in Resources */,
 				A47C47441B5889B6007B0D65 /* LaunchScreen.xib in Resources */,
 				A47C47411B5889B6007B0D65 /* Images.xcassets in Resources */,
+				A451596C1B58A31E007F54F0 /* XHReportCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +299,12 @@
 			files = (
 				A47C475F1B588BC0007B0D65 /* ViewController.m in Sources */,
 				A47C476C1B588FD6007B0D65 /* XHRichTextView.m in Sources */,
+				A42FD0AC1B58CBDA00B1995B /* XHViewController.m in Sources */,
+				A45159731B58AB64007F54F0 /* XHCommentData.m in Sources */,
 				A47C475E1B588BC0007B0D65 /* AppDelegate.m in Sources */,
+				A45159701B58AA9E007F54F0 /* XHReportData.m in Sources */,
+				A451596B1B58A31E007F54F0 /* XHReportCell.m in Sources */,
+				A42FD0A91B58C5AB00B1995B /* XHBaseReportData.m in Sources */,
 				A47C47361B5889B6007B0D65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +372,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = XHRichTextViewDemo/XHDemo.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -339,6 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -368,12 +414,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = XHRichTextViewDemo/XHDemo.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;

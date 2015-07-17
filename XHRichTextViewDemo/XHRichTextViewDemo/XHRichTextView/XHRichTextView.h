@@ -32,6 +32,7 @@ typedef NSString *(^RegularCallBack)(NSString *);
 @property(nonatomic,strong)UIFont *textFont;
 @property(nonatomic,strong)UIFont *responderFont;
 @property(nonatomic,copy)NSString * replaceRegular;
+//@property(nonatomic,strong)CGRect expectRect; //返回预计大小
 
 -(void)insertImageAtIndex:(NSUInteger)index withImageName:(NSString*)imageName;
 -(void)addTextResponderRange:(NSRange)range;

@@ -4,7 +4,7 @@
 //
 //  Created by duxuanhui on 15/7/13.
 //  Copyright (c) 2015年 duxuanhui. All rights reserved.
-//
+//  GitHub:https://github.com/duxuanhui/XHRichTextView
 
 #import <UIKit/UIKit.h>
 //typedef enum

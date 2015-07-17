@@ -143,7 +143,6 @@ CGFloat getAscent(void *refCon)
     
 #pragma mark 计算响应Textrect imageRect 绘制image;
     
-    
     CFArrayRef lineArray = CTFrameGetLines(frame);
     CGPoint lineOrigins[CFArrayGetCount(lineArray)];
     
@@ -242,7 +241,7 @@ CGFloat getAscent(void *refCon)
 -(void)textAttributedInit
 {
     self.textColor = [UIColor blackColor];
-    self.textFont = [UIFont systemFontOfSize:20];
+    self.textFont = [UIFont systemFontOfSize:17];
     self.responderColor = [UIColor blueColor];
     self.highlightColor = [UIColor grayColor];
     self.backgroundColor = [UIColor clearColor];
@@ -284,6 +283,7 @@ CGFloat getAscent(void *refCon)
 
 -(void)addTextResponderWithStrings:(NSArray *)strings
 {
+#warning 这里需要加类型判断
     for (NSString * string in strings)
     {
         [self addTextResponderWithString:string];
