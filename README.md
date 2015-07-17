@@ -16,6 +16,7 @@
 - `@property(nonatomic,strong)UIFont *textFont`文本字体
 - `@property(nonatomic,strong)UIFont *responderFont`响应文本字体
 - `@property(nonatomic,copy)NSString * replaceRegular`替换正则表达式
+
 ---
 ### 具体用法 
 `在使用以下方法时,你应当确定你已经设置了该类的text属性`
