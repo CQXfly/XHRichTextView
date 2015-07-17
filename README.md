@@ -6,8 +6,8 @@
 ## 属性说明
 - `@property(nonatomic,copy)TextClick textClick`  属性文本被点击时的回调,类型:`void(^TextClick)(NSString *)` 
 - `@property(nonatomic,copy)ImageClick imageClick` 图片被点击时的回调,类型:`void(^ImageClick)(NSString *)` 
-- @property(nonatomic,copy)RegularCallBack regularCallBack 正则回调,类型:`NSString *(^RegularCallBack)(NSString *)`
-- //@property(nonatomic,assign)XHImageDisplayMode imageMode 没有实现
+- `@property(nonatomic,copy)RegularCallBack regularCallBack` 正则回调,类型:`NSString *(^RegularCallBack)(NSString *)`
+- `@property(nonatomic,assign)XHImageDisplayMode imageMode` 暂时没有实现
 - `@property(nonatomic,strong)NSString *text` 要显示的文本
 - `@property(nonatomic,strong)UIColor *textColor` 文本的颜色
 - `@property(nonatomic,strong)UIColor *responderColor` 响应文本颜色
