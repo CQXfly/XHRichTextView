@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef enum
-{
-    XHImageDisplayModeTop,
-    XHImageDisplayModeMiddle,
-    XHImageDisplayModeBottom,
-}XHImageDisplayMode;
+//typedef enum
+//{
+//    XHImageDisplayModeTop,
+//    XHImageDisplayModeMiddle,
+//    XHImageDisplayModeBottom,
+//}XHImageDisplayMode;
 typedef void(^TextClick)(NSString *);
 typedef void(^ImageClick)(NSString *);
 typedef NSString *(^RegularCallBack)(NSString *);
@@ -23,7 +23,7 @@ typedef NSString *(^RegularCallBack)(NSString *);
 @property(nonatomic,copy)ImageClick imageClick;
 @property(nonatomic,copy)RegularCallBack regularCallBack;
 
-@property(nonatomic,assign)XHImageDisplayMode imageMode;
+//@property(nonatomic,assign)XHImageDisplayMode imageMode;
 @property(nonatomic,strong)NSString *text;
 @property(nonatomic,strong)UIColor *textColor;
 @property(nonatomic,strong)UIColor *responderColor;

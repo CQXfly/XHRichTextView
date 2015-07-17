@@ -52,35 +52,15 @@ CGFloat getWidth(void * refCon)
 }
 CGFloat getDescent(void* refCon)
 {
-    if (self.imageMode == XHImageDisplayModeTop)
-    {
-        NSString *imageName =(__bridge NSString *)refCon;
-        UIImage * image = [UIImage imageNamed:imageName];
-        return image.size.height;
-    }
-    if (self.imageMode == XHImageDisplayModeMiddle)
-    {
-        NSString *imageName =(__bridge NSString *)refCon;
-        UIImage * image = [UIImage imageNamed:imageName];
-        return image.size.height/2;
-    }
     return 0;
 }
 CGFloat getAscent(void *refCon)
 {
-    if (self.imageMode == XHImageDisplayModeBottom)
-    {
-        NSString *imageName =(__bridge NSString *)refCon;
-        UIImage * image = [UIImage imageNamed:imageName];
-        return image.size.height;
-    }
-    if (self.imageMode == XHImageDisplayModeMiddle)
-    {
-        NSString *imageName =(__bridge NSString *)refCon;
-        UIImage * image = [UIImage imageNamed:imageName];
-        return image.size.height/2;
-    }
-    return 0;
+
+    NSString *imageName =(__bridge NSString *)refCon;
+    UIImage * image = [UIImage imageNamed:imageName];
+    return image.size.height;
+    
 }
 
 @interface XHRichTextView ()
