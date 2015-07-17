@@ -20,6 +20,7 @@
 ---
 ## 具体用法 
 `在使用以下方法时,你应当确定你已经设置了该类的text属性`
+
 ### `-(void)insertImageAtIndex:(NSUInteger)index withImageName:(NSString*)imageName`
 - 通过这个方法你可以在文本的指定位置插入图片
 
@@ -27,14 +28,16 @@
 ### `-(void)addTextResponderRanges:(NSArray *)ranges`
 ### `-(void)addTextResponderWithString:(NSString *)string`
 ### `-(void)addTextResponderWithStrings:(NSArray *)strings`
+
 - 你可以通过这四个个方法设置要响应的文字,如果需要点击该段文字时响应,你应当给该类的`textClick`属性赋值 这是一个`void(^TextClick)(NSString *)`Block,当touchUpInside发生时,该block将被回调,被点击文字将被传递
 - 默认的响应文字显示为蓝色,你可以通过设置`responderColor`来设置它
 
 
 ### `-(void)addRegularString:(NSString *)replaceRegular WithCallBack:(RegularCallBack)callBack`
-
 - 这个方法是通过正则表达式来进行替换符合规则的字符串,你需要提供一个字符串的正则表达式,并且设置callBack的Block,这是一个`NSString *(^RegularCallBack)(NSString *)`的block,该类将根据正则对字符串进行遍历,并每次匹配时回调callback,你应该在该block中根据接受的值来返回一个图片名称,如果返回nil,则匹配到得字符串将被设置为响应文本
- **该方法有bug,如果你返回nil 请不要再调用`-(void)insertImageAtIndex:(NSUInteger)index withImageName:(NSString*)imageName` **
+- 
+
+ **该方法有bug,如果你返回nil 请不要再调用-(void)insertImageAtIndex:(NSUInteger)index withImageName:(NSString*)imageName**
 
 ---
 
